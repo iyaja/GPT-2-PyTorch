@@ -1,0 +1,3 @@
+env: pytorch-1.0
+machine: gpu
+command: pip install pytorch-pretrained-bert && pip install spacy ftfy==4.4.3 && python -m spacy download en
